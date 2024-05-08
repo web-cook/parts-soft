@@ -1,0 +1,13 @@
+/* Base */
+@import "./base/reset";
+@import "./base/variables";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+
+/* Blocks */
+@import "./blocks/header.scss";
+@import "./blocks/about.scss";
+@import "./blocks/offers.scss";
+@import "./blocks/footer.scss";
+

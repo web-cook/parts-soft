@@ -1,0 +1,20 @@
+html, body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+  font-family: var(--font-main);
+}
+
+.main {
+  &__container {
+    background-color: var(--main-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+  }
+}
